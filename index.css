@@ -96,6 +96,29 @@ section {
     margin-bottom: 8px;
 }
 
+.project-links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.github-link {
+    display: inline-block;
+    background-color: #6c63ff;
+    color: white !important;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.github-link:hover {
+    background-color: #5a52d3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
 .project-langs {
     font-size: 0.89rem;
     color: #444;
